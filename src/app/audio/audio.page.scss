@@ -1,28 +1,60 @@
 * {
-  --background: linear-gradient(to bottom, #ffd700, #ff8c00);
-}
-
-ion-content {
   --background: url('/assets/Fondo2.jpg') no-repeat center center; 
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Cambiado de 100v a 100vh */
 }
+.yatra-one-regular {
+  font-family: "Yatra One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 
+
+}
+ion-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .logo {
+  cursor: pointer;
   position: absolute;
-  top: 2%; /* Ajustado a porcentaje */
-  left: 2%; /* Ajustado a porcentaje */
-  width: 15%; /* Ajustado a porcentaje */
+  top: 20px;
+  left: 20px;
+  width: 100px;
   height: auto;
   z-index: 1;
 }
-
+.table-row {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  padding: 0;
+}
+.table-row ion-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-checkbox {
+  --size: 50px;
+}
+.button-container {
+display: flex;
+justify-content: flex-end;    
+align-items: center;
+width: 100%;
+padding-right: 3rem; 
+padding-top: 2rem;
+}
+.button-container ion-button {
+  font-family: 'Yatra One', sans-serif;
+}
 .button-Home {
-  padding: 1.5rem 3rem; /* Cambiado a unidades relativas */
-  border-radius: 1rem; /* Cambiado a unidades relativas */
+
+  cursor: pointer;
+  padding: 15px 40px 15px 40px;
+  border-radius: 10px;
   border-style: double;
   font-weight: 600;
   background-image: linear-gradient(
@@ -33,42 +65,14 @@ ion-content {
   color: rgb(164, 164, 162);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-color: rgb(0, 0, 0);
-  transition: 0.4s; /* Cambiado a unidades relativas */
+  transition: 400ms;
 }
-
-.button-container {
+.divboton{
   display: flex;
-  padding-top: 2rem;
-  justify-content: center; /* Añadido para centrar el contenido */
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 2rem;
 }
-
-.card1 {
-  width: 13%;
-  margin-top: 4%;
-  margin-left: 1%; /* Añadido para espaciar las tarjetas */
-   /* Añadido para espaciar las tarjetas */
-}
-
-.titulo {
-  background: gray; /* Cambiado a background en lugar de --background */
-}
-
-.ionpadre {
-  width: 50%;
-  height: 97%;
-  margin-left: 25%;
-  margin-top: -37.9%;
-}
-
-.ionimg {
-  height: auto; /* Ajustado a auto para mantener la proporción */
-  width: 80%; /* Ajustado a 100% para ocupar todo el ancho */
-  max-width: 220px; /* Añadido para limitar el ancho máximo */
-}
-
-.juan {
-  width: 120px;
-}
-.boton1{
-  margin-top:-80px ;
+.custom-checkbox-true{
+  --size: 50px;
 }
