@@ -1,17 +1,16 @@
-import { initializeApp } from "firebase/app";
-
 export const environment = {
   production: false,
   firebase: {
     apiKey: "AIzaSyAPglCsqN_UC8kqhf_XUZ1h7U1AFEhfMP8",
-    authDomain: "coki-proyect-d511b.firebaseapp.com",
-    databaseURL: "https://coki-proyect-d511b-default-rtdb.firebaseio.com",
-    projectId: "coki-proyect-d511b",
-    storageBucket: "coki-proyect-d511b.appspot.com",
-    messagingSenderId: "537749263498",
-    appId: "1:537749263498:web:49a26ea0235815c7af0973"
+  authDomain: "coki-proyect-d511b.firebaseapp.com",
+  databaseURL: "https://coki-proyect-d511b-default-rtdb.firebaseio.com",
+  projectId: "coki-proyect-d511b",
+  storageBucket: "coki-proyect-d511b.appspot.com",
+  messagingSenderId: "537749263498",
+  appId: "1:537749263498:web:49a26ea0235815c7af0973"
   }
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
