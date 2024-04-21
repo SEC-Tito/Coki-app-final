@@ -8,5 +8,5 @@ export const environment = {
   storageBucket: "coki-proyect-d511b.appspot.com",
   messagingSenderId: "537749263498",
   appId: "1:537749263498:web:49a26ea0235815c7af0973"
-}
+}qw
 };

@@ -25,9 +25,36 @@ export class AudioPage implements OnInit {
     audio.pause();
   }
 
-  playAudio() {
+  playAudio1() {
     const audio = this.audioElement.nativeElement as HTMLAudioElement;
-    audio.src = 'assets/audio/juaquin.mp3';
+    audio.src = 'assets/audio/Audio1.1.mp3';
+    audio.load();
+    audio.play();
+    console.log({audio});
+    
+  }
+  
+  playAudio2() {
+    const audio = this.audioElement.nativeElement as HTMLAudioElement;
+    audio.src = 'assets/audio/Audio2.1.mp3';
+    audio.load();
+    audio.play();
+    console.log({audio});
+    
+  }
+  
+  playAudio3() {
+    const audio = this.audioElement.nativeElement as HTMLAudioElement;
+    audio.src = 'assets/audio/Audio3.1.mp3';
+    audio.load();
+    audio.play();
+    console.log({audio});
+    
+  }
+  
+  playAudio4() {
+    const audio = this.audioElement.nativeElement as HTMLAudioElement;
+    audio.src = 'assets/audio/Audio3.1-1.mp3';
     audio.load();
     audio.play();
     console.log({audio});
